@@ -8,7 +8,7 @@
       "styling": {}
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 13,
+    "uniqCompNum": 16,
     "versionPublish": "3.12.1",
     "path": "file:///C:/Users/ll6sw/Desktop",
     "screenshot": "screenshot.png"
@@ -32,7 +32,7 @@
             ".navbar-brand a": {},
             ".nav .link, .dropdown-item": {
               "font-size": "1em",
-              "color": "#2969b0"
+              "color": "#ffffff"
             },
             ".navbar, .dropdown-menu": {
               "background": "#333333"
@@ -41,7 +41,7 @@
               "background": "#292929"
             },
             ".navbar-toggler": {
-              "color": "#2969b0"
+              "color": "#ffffff"
             }
           },
           "_tags": [
@@ -53,7 +53,7 @@
             "bgColor": "#333333",
             "fontSize": "1",
             "fontName": {},
-            "fontColor": "#2969b0",
+            "fontColor": "#ffffff",
             "transparent": true,
             "sticky": true,
             "logo": true,
@@ -63,7 +63,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/149546067647422-kopie-307x128.png",
+              "src": "@PROJECT_PATH@/assets/images/image-307x128.png",
               "class": "",
               "height": 128,
               "alt": "",
@@ -73,7 +73,7 @@
             }
           },
           "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">ONGOING</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">RISING</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">FINISHED</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">MERCHANDISE</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger-outline btn-danger\" href=\"https://mobirise.com/\">Login</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">ONGOING</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"upcoming.html\" aria-expanded=\"false\">RISING</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"finished.html\" aria-expanded=\"false\">FINISHED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger-outline btn-danger\" href=\"https://mobirise.com/\">Login</a></li>"
         },
         {
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
@@ -90,7 +90,7 @@
                 "active": false,
                 "image": "@PROJECT_PATH@/assets/images/pexels-photo-88737ef-2000x1334.png",
                 "contentAlign": "right",
-                "overlay": false,
+                "overlay": true,
                 "showTitle": true,
                 "title": "What's awe.tv?",
                 "showText": true,
@@ -102,6 +102,7 @@
                 "active": false,
                 "image": "@PROJECT_PATH@/assets/images/mv5bzjvjyzjjm2etzwq2mc00ognkltlmzgytzdk3zjzizte0ngi0xkeyxkfqcgdeqxvynjewntm2mzc-2000x1332.jpg",
                 "contentAlign": "left",
+                "overlay": true,
                 "showTitle": true,
                 "title": "Ongoing shows",
                 "showText": true,
@@ -110,9 +111,10 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">View more</a> "
               },
               {
-                "active": false,
+                "active": true,
                 "image": "@PROJECT_PATH@/assets/images/sense8-202-lito-capheus-sun-2000x1335.jpg",
                 "contentAlign": "center",
+                "overlay": true,
                 "showTitle": true,
                 "title": "Rising shows",
                 "showText": true,
@@ -121,9 +123,10 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"upcoming.html\" data-toolbar=\"-mbrBtnMove\">View more</a> "
               },
               {
-                "active": true,
-                "image": "images/slide3.jpg",
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/maxresdefault-2000x1125.jpg",
                 "contentAlign": "center",
+                "overlay": true,
                 "showTitle": true,
                 "title": "Finished shows",
                 "showText": true,
@@ -163,7 +166,7 @@
             ".navbar-brand a": {},
             ".nav .link, .dropdown-item": {
               "font-size": "1em",
-              "color": "#2969b0"
+              "color": "#ffffff"
             },
             ".navbar, .dropdown-menu": {
               "background": "#333333"
@@ -172,7 +175,7 @@
               "background": "#292929"
             },
             ".navbar-toggler": {
-              "color": "#2969b0"
+              "color": "#ffffff"
             }
           },
           "_tags": [
@@ -184,7 +187,7 @@
             "bgColor": "#333333",
             "fontSize": "1",
             "fontName": {},
-            "fontColor": "#2969b0",
+            "fontColor": "#ffffff",
             "transparent": true,
             "sticky": true,
             "logo": true,
@@ -194,7 +197,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/149546067647422-336x128.png",
+              "src": "@PROJECT_PATH@/assets/images/image-307x128.png",
               "class": "",
               "height": 128,
               "alt": "",
@@ -204,7 +207,7 @@
             }
           },
           "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">ONGOING</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">RISING</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">FINISHED</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">MERCHANDISE</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger-outline btn-danger\" href=\"https://mobirise.com/\">Login</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">ONGOING</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"upcoming.html\" aria-expanded=\"false\">RISING</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"finished.html\" aria-expanded=\"false\">FINISHED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger-outline btn-danger\" href=\"https://mobirise.com/\">Login</a></li>"
         },
         {
           "_tags": [
@@ -224,7 +227,7 @@
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": false,
+            "overlay": true,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
             "showHeader": true,
@@ -309,7 +312,7 @@
           },
           "title3": "BAND OF BROTHERS",
           "caption3": "The story of Easy Company of the US Army 101st Airborne division and their mission in WWII Europe from Operation Overlord through V-J Day.<br><br>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
           "media4": {
             "image": {
               "active": true,
@@ -333,7 +336,7 @@
           },
           "title4": "SMALLVILLE<br>",
           "caption4": "A young Clark Kent struggles to find his place in the world as he learns to harness his alien powers for good and deals with the typical troubles of teenage life in Smallville, Kansas.<br>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
           "media5": {
             "image": {
               "active": true,
@@ -373,7 +376,18 @@
           },
           "title6": "HOST ANYWHERE",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>"
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "_styles": {
+            "P": {
+              "color": "#efefef"
+            },
+            ".mbr-section__col .mbr-header__text": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-title .mbr-header__text": {
+              "color": "#ffffff"
+            }
+          }
         }
       ]
     },
@@ -391,7 +405,7 @@
             ".navbar-brand a": {},
             ".nav .link, .dropdown-item": {
               "font-size": "1em",
-              "color": "#2969b0"
+              "color": "#ffffff"
             },
             ".navbar, .dropdown-menu": {
               "background": "#333333"
@@ -400,7 +414,7 @@
               "background": "#292929"
             },
             ".navbar-toggler": {
-              "color": "#2969b0"
+              "color": "#ffffff"
             }
           },
           "_tags": [
@@ -412,7 +426,7 @@
             "bgColor": "#333333",
             "fontSize": "1",
             "fontName": {},
-            "fontColor": "#2969b0",
+            "fontColor": "#ffffff",
             "transparent": true,
             "sticky": true,
             "logo": true,
@@ -422,7 +436,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/149546067647422-336x128.png",
+              "src": "@PROJECT_PATH@/assets/images/image-307x128.png",
               "class": "",
               "height": 128,
               "alt": "",
@@ -432,7 +446,7 @@
             }
           },
           "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">ONGOING</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">RISING</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">FINISHED</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">MERCHANDISE</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger-outline btn-danger\" href=\"https://mobirise.com/\">Login</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">ONGOING</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"upcoming.html\" aria-expanded=\"false\">RISING</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"finished.html\" aria-expanded=\"false\">FINISHED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger-outline btn-danger\" href=\"https://mobirise.com/\">Login</a></li>"
         },
         {
           "_tags": [
@@ -441,10 +455,10 @@
           "_name": "features1",
           "_styles": {
             "P": {
-              "color": "#28324e"
+              "color": "#efefef"
             },
             ".mbr-section__col .mbr-header__text": {
-              "color": "#000000"
+              "color": "#ffffff"
             }
           },
           "_anchor": "features1-c",
@@ -460,7 +474,7 @@
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": false,
+            "overlay": true,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
             "showHeader": false,
