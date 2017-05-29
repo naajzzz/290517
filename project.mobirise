@@ -94,7 +94,7 @@
                 "showTitle": true,
                 "title": "What's awe.tv?",
                 "showText": true,
-                "text": "Awe.tv is a social news site that provides you with the newest and trending tv-shows that are currently aired aswell give you a brief history of popular shows of the decade.",
+                "text": "Awe.tv is a social news site that provides you with the newest and trending tv-shows that are currently being aired.",
                 "showButtons": true,
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Login</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Register</a>"
               },
